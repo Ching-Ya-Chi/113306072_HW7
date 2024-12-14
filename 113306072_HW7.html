@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>113306072_Portfolio</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+            .ct{
+                width: 100%;
+                height: 1150px;
+                display: inline-flex;
+            }
+            .left{
+                position:relative;
+                width: 330px;
+                height: 1150px;
+                background-color: rgba(44, 53, 53, 0.19);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-left: 25%;
+            }
+            .left h1{
+                text-align: center;
+                font-size: 50px;
+                font-weight: 900;
+            }
+            .right{
+                margin-right: 25%;
+                position: relative;
+                width: 540px;
+                height: 1150px;
+                background-color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .right h2{
+                border-bottom: #ccc 1px solid;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+            }
+            .right .edu{
+                display: inline-flex;
+                width:540px;
+                height: 300px;
+            }
+            .edu .c{
+                margin-left: 5%;
+                margin-top: 2%;
+                position: relative;
+                font-size: larger;
+            }
+            .edu .yy{
+                margin-left: 5%;
+                margin-top: 2%;
+                position: relative;
+                font-size: large;
+            }
+            .right .hl{
+                margin-left: 5%;
+                display:inline-block;
+                height: 300px;
+                font-size: larger;
+            }
+            #music{
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+            }
+            .me{
+                display: block;
+                height: 300px;
+                font-size: larger;
+            }
+            .email{
+                height: 150px;
+                display: block;
+                font-size: larger;
+            }
+            .pic{
+                height: 200px;
+                display: block;
+            }
+            #name{
+                text-align: center;
+                font-size: 50px;
+                font-weight: 900;
+            }
+            .mel{
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 5%;
+            }
+            
+    </style>
+</head>
+<body>
+    <div class = "ct">
+        <div class = "left">
+            <img src = "./pic/personalPhoto.png" width = "330" height = ""  alt = "Photo">
+            <div id="name">
+                <a id = "dname"></a>
+                <button id="ebt" style="float: right;">Edit</button>
+            </div>
+            <div id="ed">
+                <input type="text" id = "ename">
+                <button id = "sbt">Save</button>
+            </div>
+            <p><h2>About me</h2></p>
+            <div class="me">
+                I am a freshman in the Department of Management information System at National ChengChi University. I am very interested in studying programming and computer science fundamentals. I have experience in writing Java,Html,CSS,JavaScript and Python.
+            </div>
+            <p>
+                <h2>Contact</h2>
+            </p>
+            <div class="email">
+                <a href="mailto:113306072@g.nccu.edu.tw">113306072@g.nccu.edu.tw</a>
+                
+            </div>
+            <div class="pic"><img src="./pic/uniPic.png" width="330px" alt="photo"></div>
+        </div>
+        <div class="right">
+            <h2>Education</h2>
+            <div class ="edu">
+                <div class ="yy">
+                    <b>2024-<br>now</b><br>
+                    <b><br>2018-<br>2021</b><br>
+                    <b><br>2021-<br>2024</b>
+                </div>  
+                <div class ="c">
+                    ChengChi University,Department of MIS Computer Science<br><br>
+                    Taichung Municipal Taichung First Senior High School<br><br><br>
+                    Municipal Sz-Yu Junior High School<br>
+                </div>
+            </div>
+
+            <h2>Homework List</h2>
+            <div class ="hl">
+                <div>HW1 - <a href="https://github.com/Ching-Ya-Chi/HW1.git">https://github.com/Ching-Ya-Chi/HW1.git</a></div><br>
+                <div>HW2 - <a href="https://github.com/Ching-Ya-Chi/HW2.git">https://github.com/Ching-Ya-Chi/HW2.git</a></div><br>
+                <div>HW3 - <a href="https://github.com/Ching-Ya-Chi/113306072_hw3.git">https://github.com/Ching-Ya-Chi/113306072_hw3.git</a></div><br>
+            </div>
+
+            <h2>Favorite Music</h2>
+            <div id ="music">
+                <div class="mel"><a href = "https://music.youtube.com/watch?v=saDmN2f3HI0&list=RDAMVMsaDmN2f3HI0"><img src = "./pic/GrandEscape.png" width = "50" height = "50"></a><br>GrandEscape</div>
+                <div class="mel"><a href = "https://music.youtube.com/watch?v=44gpZejFIzw&list=RDAMVM44gpZejFIzw"><img src = "./pic/PerfectBlue.png" width = "50" height = "50"></a><br>PerfectBlue</div>
+                <div class="mel"> <a href = "https://music.youtube.com/watch?v=XF1Cblkt3Ic&list=RDAMVMXF1Cblkt3Ic"><img src = "./pic/Refrain.png" width = "50" height = "50"></a><br>Ref:rain</div>
+                <div class="mel"><a href="https://music.youtube.com/watch?v=jwpvf16e1Yo&list=RDAMVMjwpvf16e1Yo"><img src ="./pic/BinaryStar.png" width="50"height="50"></a><br>BinaryStar</div>
+                
+                
+                
+            </div>
+            <button id = "add" style="float: left;">add</button>
+            <div id = "ml" style ="display: none;">
+                <input type="href" id="link" placeholder="music link">
+                <input type="text" id="mname" placeholder="music name">
+                <button id="sub">submit</button>
+            </div>
+        </div>
+    </div>
+<script>
+    var dname = "Leo";
+    document.getElementById("dname").innerHTML +=  dname;
+    var bt = document.getElementById("ebt");
+    var sbt = document.getElementById("sbt");
+    var abt = document.getElementById("add");
+    var sub = document.getElementById("sub");
+    abt.addEventListener("click",()=>{
+        var div = document.getElementById("ml");
+        div.style.display = "block";
+    });
+    sub.addEventListener("click",()=>{
+        var div = document.getElementById("ml");
+        var in1 = document.getElementById("link").value;
+        var in2 = document.getElementById("mname").value;
+        if(in1 === "" || in2 === ""){
+            alert("some information missing");
+        }
+        else{
+            document.getElementById("music").innerHTML += "<div class = \"mel\"><a href=\"" + in1 + "\"><img src =\"./pic/personalPhoto.png\" width=\"50\"height=\"50\"></a><br>"+ in2+"</div>";
+            div.style.display = "none";
+        }
+        
+    });
+    bt.addEventListener("click",()=>{
+        edit();
+        var ename = document.getElementById("ename");
+        ename.value = dname;
+    })
+    sbt.addEventListener("click",()=>{
+        view();
+        var ename = document.getElementById("ename").value;
+        document.getElementById("dname").innerHTML="";
+        dname = ename;
+        document.getElementById("dname").innerHTML += dname;
+    })
+    document.addEventListener("load",view());
+    function view(){
+        var vi = document.getElementById("name");
+        vi.style.display = "block";
+        var ed = document.getElementById("ed");
+        ed.style.display = "none";
+    }
+    function edit(){
+        var vi = document.getElementById("name");
+        vi.style.display = "none";
+        var ed = document.getElementById("ed");
+        ed.style.display = "block";
+    }   
+</script>
+
+    
+    
+</body>
+</html>
